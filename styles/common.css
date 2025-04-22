@@ -1,5 +1,4 @@
-/* indext css (main) */
-/* header */    
+/* index, 모든 sub 적용할 공통 header, footer, common.css */
 #wrap{}
 #wrap header {}
 #wrap header h1{}
