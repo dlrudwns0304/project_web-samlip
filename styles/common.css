@@ -1,4 +1,4 @@
-/* index, 모든 sub 적용할 공통 header, footer, common.css */
+/* index, 모든 sub 적용할 공통 header, footer, common.css */ /* 모든 페이지에 공통으로 헤더가 들어가므로 commoon.css 만듬 */
 #wrap{}
 #wrap header {}
 #wrap header h1{}
