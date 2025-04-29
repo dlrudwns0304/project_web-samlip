@@ -1,0 +1,52 @@
+#wrap main {text-align: center;}
+#wrap main .path {
+    background-color: #fcfcfc;
+    text-align:right;
+    padding:12px 60px 12px 0;
+    margin: 10px;
+    font-size:0.75rem;
+    border-left:0; border-right:0; 
+    
+}
+#wrap main .path  * {/* 글자디자인 */}
+#wrap main .path a{}
+#wrap main .path img{margin:0 14px}
+#wrap main .path em{font-weight:500;}
+#wrap main h1 {
+    width:1920px; height:0 auto;
+    font-size: 3.75rem;
+    font-weight:600;
+
+    margin-bottom:20px;
+    padding:80px 0;
+}
+#wrap main p {
+    font-size: 1.125rem;
+    color:#808080;
+    margin-bottom:89px;
+    
+}
+#wrap main .bg {
+    display: inline;
+    width:1920px; height:600px;
+    
+}
+#wrap main .bg .sns_contents {
+    display:flex;
+    flex-flow: row nowrap; 
+    justify-content: center;
+    
+    
+}
+#wrap main .bg .sns_contents a {
+    margin-bottom:25px;
+    border:1px solid #138FBF;
+    padding-right:25px;
+}
+#wrap main .bg .sns_contents a img {
+    margin-bottom:25px;
+}
+#wrap main .bg .sns_contents a h2 {
+    margin-bottom:25px;
+}
+#wrap main .bg .sns_contents a p {}
