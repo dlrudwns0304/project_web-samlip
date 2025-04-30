@@ -1,12 +1,11 @@
 #wrap main {text-align: center;}
 #wrap main .path {
-    background-color: #fcfcfc;
+    background-color: #eee;
     text-align:right;
     padding:12px 60px 12px 0;
-    margin: 10px;
-    font-size:0.75rem;
-    border-left:0; border-right:0; 
     
+    font-size:0.75rem;
+    border-left:0; border-right:0;     
 }
 #wrap main .path  * {/* 글자디자인 */}
 #wrap main .path a{}
@@ -16,37 +15,38 @@
     width:1920px; height:0 auto;
     font-size: 3.75rem;
     font-weight:600;
-
-    margin-bottom:20px;
-    padding:80px 0;
+    margin:100px 0 30px;
+    margin-bottom: 20px;
 }
-#wrap main p {
+#wrap main > p{
     font-size: 1.125rem;
     color:#808080;
     margin-bottom:89px;
-    
 }
 #wrap main .bg {
-    display: inline;
-    width:1920px; height:600px;
-    
+    background-color: #f5f5f5;
+    padding:80px 0;
 }
 #wrap main .bg .sns_contents {
+    width:1280px; margin:0 auto;
     display:flex;
     flex-flow: row nowrap; 
-    justify-content: center;
-    
+    justify-content: space-between;
     
 }
 #wrap main .bg .sns_contents a {
-    margin-bottom:25px;
-    border:1px solid #138FBF;
-    padding-right:25px;
+    padding-top:50px;
+    background-color:#eee;
+    width:350px; height:350px;
+    box-shadow: 0 0 20 rgba(0,0,0,0.4);
 }
-#wrap main .bg .sns_contents a img {
+#wrap main .bg .sns_contents a:hover {
+    border:1px solid #4083ff;
+}
+#wrap main .bg .sns_contents a:last-child {}
+#wrap main .bg .sns_contents a p {
     margin-bottom:25px;
 }
-#wrap main .bg .sns_contents a h2 {
-    margin-bottom:25px;
-}
-#wrap main .bg .sns_contents a p {}
+#wrap main .bg .sns_contents a p img {}
+#wrap main .bg .sns_contents a h2 {margin:20px 0;}
+#wrap main .bg .sns_contents a h2+p {}
