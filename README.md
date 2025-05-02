@@ -1,4 +1,4 @@
-# poject-web-samlip 2025/4 ~ ing 
+# poject-web-samlip 2025/4 ~ 2025/05/02 
 ## 삼림 프로젝트 파일/폴더 구성
  `./styles/common.css' header, footer 공통 css
  './index.html' 첫번째 메인 HTML - './images/*','./styles/index.css','./styles/reset.css'
