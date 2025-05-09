@@ -1,5 +1,7 @@
 /* index, 모든 sub 적용할 공통 header, footer common.css */
-#wrap {}
+#wrap {
+    min-width:1900px;
+}
 #wrap header {
     position:fixed;/* lnb_bg의 부모 위치 기준 설정 */
     z-index:900; /* 값 -1~999 단위없고 중첩순서만 결정하는 position 선택속성 */
@@ -10,7 +12,7 @@
     flex-flow:row nowrap;
     justify-content:space-between;
     align-items:center;
-    width:100%;
+    min-width:1200px; width:100%;
     background-color: #fff;
 }
 #wrap header h1 {}
